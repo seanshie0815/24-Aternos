@@ -14,9 +14,9 @@ config.read('config.ini')
 
 def started(stop):
     bot = mineflayer.createBot({
-      'host': config.get('server', 'host'),
-      'port': config.get('server', 'port'),
-      'username': config.get('bot', 'name')    })
+      'host': seanshie2027.aternos.me,
+      'port': 31537,
+      'username': Hello)    })
     print('Start')
     
     @On(bot, "login")
